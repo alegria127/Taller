@@ -2,19 +2,11 @@
   Nombre: Punto.cpp
   Autor: IPOO - Univalle Tulua
   Fecha Creacion: 2020
-  Fecha Modificación: 2020
-  Versión : 1.0
+  Fecha Modificaciï¿½n: 2020
+  Version : 1.0
   Email: suMail
 */
-#include "./Punto.h"
-
-
-Punto::Punto()
-{
-    x=0;
-    y=0;
-}
-
+#include "Punto.h"
 Punto::Punto(int dX, int dY )
 {
     x = dX;
@@ -34,7 +26,6 @@ void Punto::cambiarY(int y1)
 {
     y = y1;
 }
-
 
 int Punto::darX()
 {

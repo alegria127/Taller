@@ -2,34 +2,34 @@
   Nombre: Punto.h
   Autor: IPOO - Univalle Tulua
   Fecha Creacion: 2020
-  Fecha Modificación: 2020
-  Versión : 1.0
+  Fecha Modificaciï¿½n: 2020
+  Versiï¿½n : 1.0
   Email: suMail
 */
-
-#ifndef __CLASSPUNTO
-#define __CLASSPUNTO
 /*
    Clase: Punto
    Responsabilidad:
     - Simula ser un punto  del plano cartesiano,de coordenadas (x,y).
     - A traves de ella, podemos crear, cambiar y devolver puntos en el plano cartesiano.
-   Colaboración: ninguna
+   Colaboracion: ninguna
 */
 
-
+#ifndef __CLASSPUNTO
+#define __CLASSPUNTO
 class Punto
 {
   private:
      int x;
      int y;
   public:
-    Punto();
-    Punto(int dX, int dY);
+
+  Punto();
+  Punto(int dX, int dY);
 	~Punto();
 	int darX();
 	int darY();
-	void cambiarX(int x1, int x2);
-	void cambiarY(int y1, int y2);
+	void cambiarX(int x1);
+	void cambiarY(int y1);
+  double colocarPuntos(int x,int y);
 };
-#endif
+#endif //CLASPUNTO

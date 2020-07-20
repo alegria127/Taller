@@ -9,7 +9,10 @@ using namespace std;
 
 int main()
 {
-	/* code */
+	Menu menuT;
+	menuT.visualizar();
+	menuT.ColocarPuntos();
+	menuT.cambiarPuntos();
 	return 0;
 }
 
